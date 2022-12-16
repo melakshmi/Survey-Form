@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+   <style>
+     h3
+     {
+        text-align: center;
+        color: black;
+        text-decoration-line: underline;
+     }
+   body
+   {
+    background-color: bisque;
+    text-align: center;
+    font-size: large;
+   }
+  
+  
+  </style>
+    <body>
+            <h3>Employee Interests Survey Form</h3><br>
+ <form>       
+        <label>Enter Your Name:</label>
+            <input type="text" name="uname" value=""> <br><br>
+        <label> Enter Your Department:</label>
+            <input type="text" name="udept" value=""> <br><br>
+        <label> Tell us a little about yourself:</label>
+           <textarea rows=5></textarea><br><br>
+        <label>Do you exercise at home ?</label>
+           <input type="radio"  value="yes">
+            <label for="yes" >YES</label>
+           <input type="radio" value="no"> 
+             <label for="NO" >NO</label><br><br>
+        <label>How do you like to read about your favorite topics ?</label><br><br>
+           <input type="checkbox" value="books">Books
+           <input type="checkbox" value="resource">Online Resources
+           <input type="checkbox" value="apps">Phone apps
+           <input type="checkbox" value="paper">Magazines<br><br>
+        <label>What genre of movies do you like ?</label>
+           <select name="name">
+              <option value="select">select</option>
+              <option value="comedy">Comedy</option>
+              <option value="novel">Novel</option>
+              <option value="narrative">Narrative</option>
+              <option value="history">Histroical</option>
+           </select><br><br>
+        <input type="submit" value="SUBMIT FORM"><br><br>
+        <a href="http://www.google.com">GO BACK</a>
+    </form>
+    </body>
+</html>
